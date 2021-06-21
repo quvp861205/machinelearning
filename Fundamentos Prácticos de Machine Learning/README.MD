@@ -41,12 +41,18 @@
     Selección efectiva de los atributos
     Campos nulos
 **Desventajas:**
+
+
     El criterio de división puede llegar a ser deficiente
     Se puede llegar a un sobreajuste
     Pueden aparecer ramas poco significativas
+	
+	
 **Criterios de División de un árbol de decisión:**
     Ganancia de información
     Crear pequeños árboles
+	
+	
 **Optimización de nuestro modelo:**
     Evitar el sobreajuste
     Selección de atributos → Seleccionar sólo los atributos relevantes para nuestro modelo
