@@ -1,0 +1,56 @@
+
+1.
+Construir un clasificador de emails (spam o no) requiere conocimientos de probabilidad, entre los algoritmos mencionados en clase, qué teorema es bastante útil para construir este clasificador:
+Naive Bayes
+
+2.
+Aprendizaje reforzado se enfoque en que el agente aprenda en base a:
+Recompensas y Penalidades
+
+
+3.
+Machine Learning no supervisado se caracteriza por:
+Los datos no tienen etiquetas (o labels)
+
+
+	4.
+	Para separar células benignas de malignas con machine learning, utilizará el siguiente algoritmo:
+
+	Naive Bayes
+	Ninguna de las anteriores
+Regresion Logigistica
+
+5.
+Herramientas para construir la matriz de confusión para evaluación:
+sklearn metrics
+
+
+6.
+Los verdaderos positivos y falsos positivos nos permiten conocer:
+La precisión del algoritmo
+
+
+7.
+Habilidades para Ciencias de Datos:
+Programación + Matemáticas/Estadística + Dominio del Negocio
+
+
+	8.
+	Random Forest pertenece a los algoritmos “ensemble” cuál de los siguientes algoritmos es del mismo tipo:
+
+	Decision Tree
+	árbol de decisiones
+
+9.
+Aprendizaje Automático se basa en programación no explícita y “aprende” de:
+Datos
+
+
+10.
+Los datos de entrada que son imágenes pueden ser representados como:
+Matrices
+
+
+11.
+Descenso de Gradiente que se calcula por derivadas parciales nos permite:
+Reducir el error en el algoritmo
