@@ -2,21 +2,23 @@ Datasets de ejemplo: http://yann.lecun.com/exdb/mnist/
 (Contiene mas de 60000 ejemplos de digitos escritos a mano)
 
 Otros datasets:
-- https://www.kaggle.com/datasets
+	https://www.kaggle.com/datasets
 
 
--Para el trabajo con listas de datos: NumPy
--Para hacer las gráficas: Matplotlib
--Para seleccionar el modelo de aprendizaje de Machine Learning: Scikit-Learn
+
+- Para el trabajo con listas de datos: NumPy
+- Para hacer las gráficas: Matplotlib
+- Para seleccionar el modelo de aprendizaje de Machine Learning: Scikit-Learn
 
 
 **instalar librerias**
-    pip install numpy
-    pip install matploitlib
-    pip install sklearn
-    pip install -U scikit-learn
-    pip install python-mnist
-    pip install seaborn
+
+- pip install numpy
+- pip install matploitlib
+- pip install sklearn
+- pip install -U scikit-learn
+- pip install python-mnist
+- pip install seaborn
 
 ---------------------------------
 
@@ -91,7 +93,7 @@ Para convertirte en un profesional en Machine Learning necesitas conocer sobre:
 
 El Álgebra Lineal es importante en el Machine Learning porque necesitamos entender los conceptos básicos que van por detrás de los algoritmos.
 
-    Algunos temas a saber son:
+   Algunos temas a saber son:
 
     - Regresión Lineal
     - Regresión de Mínimos Cuadrados
