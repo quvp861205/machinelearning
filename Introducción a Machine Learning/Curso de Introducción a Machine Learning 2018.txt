@@ -13,11 +13,8 @@ Machine Learning no supervisado se caracteriza por:
 Los datos no tienen etiquetas (o labels)
 
 
-	4.
-	Para separar células benignas de malignas con machine learning, utilizará el siguiente algoritmo:
-
-	Naive Bayes
-	Ninguna de las anteriores
+4.
+Para separar células benignas de malignas con machine learning, utilizará el siguiente algoritmo:
 Regresion Logigistica
 
 5.
@@ -35,11 +32,9 @@ Habilidades para Ciencias de Datos:
 Programación + Matemáticas/Estadística + Dominio del Negocio
 
 
-	8.
-	Random Forest pertenece a los algoritmos “ensemble” cuál de los siguientes algoritmos es del mismo tipo:
-
-	Decision Tree
-	árbol de decisiones
+8.
+Random Forest pertenece a los algoritmos “ensemble” cuál de los siguientes algoritmos es del mismo tipo:
+arbol de decisiones
 
 9.
 Aprendizaje Automático se basa en programación no explícita y “aprende” de:
