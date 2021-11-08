@@ -24,14 +24,33 @@ def simular_caminata(pasos, numero_de_intentos, tipo_de_borracho):
         campo.anadir_borracho(borracho, origen)
         simulacion_caminata = caminata(campo, borracho, pasos)
         distancias.append(round(simulacion_caminata, 1))
+        
+    ejecutar_caminata(campo, borracho, pasos)
 
     return distancias
+    
+def ejecutar_caminata(campo, borracho, distancia):
+    x_arreglo = []
+    y_arreglo = []
+    x_arreglo.append(campo.obtener_coordenada(borracho).x)
+    y_arreglo.append(campo.obtener_coordenada(borracho).y)
+    for _ in range(distancia):
+        campo.mover_borracho(borracho) #se actualiza las coordenadas del borracho
+        x_arreglo.append(campo.obtener_coordenada(borracho).x)
+        y_arreglo.append(campo.obtener_coordenada(borracho).y)
 
-def graficar(x, y):
+    graficar_caminata(x_arreglo, y_arreglo)
+
+def graficar_resumen(x, y):
     grafica = figure(title='Camino aleatorio', x_axis_label='pasos', y_axis_label='distancia')
     grafica.line(x, y, legend='distancia media')
 
     show(grafica)
+    
+def graficar_caminata(x, y):
+    figura = figure()
+    figura.line(x, y)
+    show(figura)
 
 def main(distancias_de_caminata, numero_de_intentos, tipo_de_borracho):
     distancias_media_por_caminata = []
@@ -46,10 +65,10 @@ def main(distancias_de_caminata, numero_de_intentos, tipo_de_borracho):
         print(f'Media = {distancia_media}')
         print(f'Max = {distancia_maxima}')
         print(f'Min = {distancia_minima}')
-    graficar(distancias_de_caminata, distancias_media_por_caminata)
+    graficar_resumen(distancias_de_caminata, distancias_media_por_caminata)
 
 if __name__ == '__main__':
     distancias_de_caminata = [10, 100, 1000, 10000]
-    numero_de_intentos = 100
+    numero_de_intentos = 2
 
     main(distancias_de_caminata, numero_de_intentos, BorrachoTradicional)
