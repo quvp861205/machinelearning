@@ -1,0 +1,123 @@
+¿Por qué la memoization funcionó para optimizar el algoritmo de Fibonacci?
+Porque evito realizar el mismo computo una y otra vez
+
+2.
+¿Qué son los programas deterministas?
+Mismo input, mismo output.
+
+
+3.
+¿Los caminos aleatorios se pueden utilizar únicamente en el mundo de la Física?
+
+Falso, los caminos aleatorios tienen aplicaciones en el mundo de las finanzas, de las matemáticas y hasta en el arte.
+
+
+4.
+¿Qué es el camino de borrachos?
+Un tipo de programa que simula aleatoriedad en el momento de tomar la decisión de dónde continuar. Es decir, toma un camino aleatorio.
+
+5.
+Si corremos un programa de caminos aleatorios, ¿vamos a obtener siempre la misma visualización?
+
+Falso, dado que se toman decisiones aleatorias, mientras más pasos tomamos es más difícil repetir exactamente el mismo camino.
+
+
+6.
+Para cada simulación que queramos escribir, ¿existe siempre una respuesta correcta sobre si el programa debe ser estocástico o determinístico?
+
+Falso, en muchas situaciones podemos escoger entre ambas opciones y nos toca decidir cuál es la que mejor resuelve nuestro problema.
+
+
+7.
+¿Es la probabilidad una medida de certidumbre que tenemos sobre si un evento futuro sucederá o no?
+
+Verdadero, la probabilidad nos permite cuantificar nuestra certidumbre sobre eventos futuros.
+
+
+8.
+La librería “random” de Python nos otorga el siguiente método:
+
+randint, para un entero aleatorio.
+
+
+9.
+¿Una muestra aleatoria tiende a exhibir las mismas propiedades que la población de la cual fue extraída?
+
+Verdadero, siempre y cuando sea aleatoria y representativa.
+
+
+10.
+¿Es la media una medida de tendencia central?
+
+Verdadero, la media es simplemente el promedio de los valores.
+
+
+11.
+¿Es la desviación estándar es una medida de dispersión?
+
+Verdadero, nos permite medir qué tan alejados se encuentran los valores de la media.
+
+
+12.
+Para describir una distribución normal, ¿necesitamos únicamente de la media y de la desviación estándar?
+Verdadero, esta distribucion puede describirse unicamente con esos 2 valores
+
+13.
+Las simulaciones de Montecarlo, ¿únicamente pueden ser utilizadas en juegos de azar?
+Falso, las simulaciones de Montecarlo nos permite modelar, a traves de la aleatoriedad, aun fenomenos que no son aleatorios
+
+14.
+¿Es posible utilizar simulaciones de Montecarlo para encontrar probabilidades de obtener diferentes tipos de manos de barajas?
+
+Verdadero, podemos simular que obtenemos barajas de manera aleatoria y ver cuántas veces sale la mano que buscamos de entre todas las manos que obtuvimos.
+
+
+15.
+¿La única forma de calcular PI es dividir la circunferencia entre el diámetro?
+
+Falso, podemos utilizar simulaciones de Montecarlo para calcularlo.
+
+
+16.
+¿Cuándo debemos hacer muestreo?
+Cuando no tenemos la capacidad computacional para calcular con todos los datos de la población o simplemente no tenemos acceso a ella.
+
+
+17.
+¿Es posible convertir cualquier distribución en una distribución normal?
+
+Sí, el teorema del límite central nos dice que a través de muestras de una población podemos obtener una distribución normal de estas muestras.
+
+
+18.
+¿Se debe siempre obtener datos antes de plantear una hipótesis?
+Falso, uno debe comenzar con una hipotesis, luego diseñar un experimento falseable y por ultimo obtener los datos
+
+
+19.
+La regresión lineal, ¿funciona únicamente con líneas?
+Falso, puede trabajar con cualquier polinomio, siendo la linea tan solo uno de los casos
+
+
+20.
+Los programas estocásticos, ¿nos permiten modelar fenómenos aleatorios?
+
+Verdadero, este tipo de programas nos permiten tomar en consideración la aleatoriedad cuando escribimos código.
+
+
+	21.
+	La probabilidad de que estés estudiando en Platzi y de que seas Colombiano, ¿es menor a la probabilidad de que seas Colombiano?
+	Verdadero, cada vez que comparamos dos eventos, sin importar si decimos “y” u “o”, las probabilidades son más pequeñas.
+	https://platzi.com/clases/1835-programacion-estocastica/26436-calculo-de-probabilidades/
+	Verdadero, cada vez que comparamos dos eventos, sin importar si decimos "y" u "o", las probabilidades son mas pequeñas
+
+22.
+El muestreo estratificado divide la población en subgrupos para no sesgar la muestra.
+
+Verdadero
+
+23.
+Podemos hacer regresiones lineales con la función de numpy "np.polyfit"
+Verdadero
+
+
