@@ -1,0 +1,31 @@
+La regresión lineal es:
+Un modelo matemático estadístico.
+
+2.
+¿Cuál de las siguientes es una aplicación común de la regresión lineal en machine learning?
+
+Problemas de predicción.
+
+3.
+¿A qué rama de las matemáticas pertenece la regresión lineal?
+A la estadística.
+
+4.
+¿Para qué nos sirve el método de los mínimos cuadrados?
+Para obtener la ecuación que mejor se ajuste a los datos.
+
+5.
+¿En qué área de las matemáticas aprendemos a despejar ecuaciones?
+En álgebra.
+
+6.
+¿Con base en qué podemos hacer predicciones en papel?
+Con base en la extrapolación de nuestra línea de regresión.
+
+7.
+¿Cuál es la función de numpy en nuestro proyecto?
+Es una biblioteca que tiene las funciones matemáticas que utilizaremos en nuestro problema.
+
+8.
+¿Cómo podemos comprobar que nuestra implementación quedó bien?
+Calculando todo con lápiz y papel y usando el mismo data set (pueden ser pocos datos).
