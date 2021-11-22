@@ -1,0 +1,86 @@
+¿Qué estudia el cálculo infinitesimal?
+El estudio del cambio cuando estos cambios son muy pequeños.
+
+2.
+¿Cuál es la definición correcta de una función?
+Es una regla de asignación que a cada elemento de un conjunto A se le asigna un elemento de un conjunto B.
+
+
+	3.
+	El conjunto de valores que puede tomar la variable dependiente y están definidos en la función es el ___________. El conjunto de valores que nos otorga una función se le conoce como ______________.
+	Imagen y dominio
+	rango e imagen
+
+4.
+Todas las funciones algebraicas satisfacen una ecuación polinómica.
+Verdadero
+
+5.
+Las funciones trascendentes son aquellas que no pueden ser representadas de forma algebraica.
+
+Verdadero
+
+6.
+La forma de manipular geométricamente funciones es a través de procesos de:
+Desplazamientos, alargamientos y compresiones.
+
+7.
+¿Qué representa la composición de funciones?
+Evaluar una función como argumento de otra.
+
+8.
+Una neurona solo puede recibir un parámetro, ya que es siempre una función de una sola salida.
+
+Falso
+
+9.
+Una función de activación...
+Activa una neurona, va después de la función de la neurona y su valor de salida depnde de la misma funcion de activacion
+
+10.
+Una de las utilidades de una función de coste es:
+Calcular qué tan mal está nuestra predicción.
+
+11.
+El límite describe...
+Cómo se comporta el valor de una función cuando nos acercamos a él sin tocarlo.
+
+12.
+La derivada nos ayuda a calcular:
+
+La pendiente de la recta tangente en un punto de la curva.
+
+13.
+¿Cuál o cuáles serían los métodos de derivación que usarías para obtener la derivada de la siguiente función?
+Por multiplicacion de derivadas y regla de la cadena
+
+Por multiplicación de derivadas y regla de la cadena.
+
+14.
+Cuando la derivada de la función es cero, se encuentran únicamente los puntos máximos.
+Falso
+
+15.
+Optimizar una función es un proceso de:
+es encontrar el valor máximo o mínimo de un problema. Para saber si el resultado de mi derivada es el máximo o el mínimo voy a buscar los limites laterales y entender de esta forma su pendiente.
+
+16.
+Una función multivariable es muy útil porque...
+Puede representar más características de nuestra realidad.
+
+	17.
+	Las curvas de nivel permiten:
+	Mostrar la misma información de una función multivariable en un plano.
+	Pasar de una representacion tridimensional a una representacion bidimensional
+
+18.
+Las derivadas parciales solo se pueden hacer en dos variables.
+Falso, se pueden hacer con funciones de múltiples variables.
+
+19.
+El gradiente se realiza con el operador:
+Nabla, que nos asigna una derivada parcial a cada componente de un vector. Busca el valor más alto de la función.
+
+20.
+¿Qué es el descenso del gradiente?
+Es un método iterativo de optimización que minimiza el error en nuestra función de coste.

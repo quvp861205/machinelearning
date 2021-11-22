@@ -1,0 +1,156 @@
+Si se conoce que
+Screen Shot 2018-08-06 at 9.40.14 AM.png
+
+es falsa, siendo p una proposición verdadera determine los valores de verdad de q,r y s
+
+q=V, r=F, s=F
+
+
+2.
+Dados los conjuntos A y B
+
+A=2,4,6,8,10,11,12,14,16
+B=1,3,5,7,9,11,13,15,17
+
+Encuentre
+
+A∩B
+A∪B
+A-B
+B-A
+
+A∩B=11
+A∪B=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+A-B=2,4,6,8,10,12,14,16
+B-A=1,3,5,7,9,13,15,17
+
+
+3.
+Encuentre (A ꓵ B)’
+A=2,4,6,8,10,11,12
+B=1,3,5,7,9,11,13
+
+U=x|x es un número natural , 1≤x≤15
+
+(A ꓵ B)’= [1,2,3,4,5,6,7,8,9,10,12,13,14,15]
+
+
+4.
+En una población de 70 personas 12 son solo ingenieros, 8 son solo economistas, 4 son ingenieros y economistas, 5 son ingenieros y administradores, ninguno es economista y administrador al tiempo, 25 no son ni ingenieros ni economistas ni administradores, ¿cuántos solo son administradores?
+
+16
+
+
+5.
+¿Cuál es el valor de verdad de la siguiente proposición? (p&q) -> (q&!p)
+
+FVVV
+v -> f = F
+F -> F = V
+F -> V = V
+F -> F = V
+
+6.
+Construye el circuito lógico para la siguiente proposición
+
+Screen Shot 2018-08-06 at 9.47.06 AM.png
+Screen Shot 2018-07-24 at 11.07.49 AM.png
+
+7.
+Construye la proposición a partir del circuito lógico
+Screen Shot 2018-07-24 at 11.09.36 AM.png
+
+Screen Shot 2018-08-06 at 10.04.27 AM.png
+
+8.
+Determine el grado de cada uno de los vértices y concluya si hay un camino euleriano o no, concluya si hay un ciclo euleriano o no y por qué.
+Screen Shot 2018-07-24 at 11.15.22 AM.png
+
+a=2,b=4,c=3,d=2,e=3,f=2,g=4,h=4 Camino: Sí, Ciclo No
+
+
+9.
+Analice la gráfica y determine si hay un camino hamiltoniano y si hay un ciclo hamiltoniano.
+Screen Shot 2018-07-24 at 11.20.47 AM.png
+
+Hay camino, pero no hay ciclo hamiltoniano
+
+
+10.
+Determine la matriz de adyacencia del siguiente grafo no dirigido
+Fixed.png
+
+Screen Shot 2018-07-24 at 11.35.46 AM.png
+
+11.
+Identifique el gráfico a partir de la matriz de adyacencia
+Screen Shot 2018-07-24 at 11.37.19 AM.png
+
+Screen Shot 2018-07-24 at 11.38.56 AM.png
+
+12.
+Tenga en cuenta el siguiente árbol
+Screen Shot 2018-07-24 at 11.40.28 AM.png
+
+¿Cuál es la altura del árbol considerando como raíz el vértice C?
+7
+
+13.
+Tenga en cuenta el siguiente árbol
+Screen Shot 2018-07-24 at 11.40.28 AM.png
+¿Cuál es el nivel del árbol considerando como raíz el vértice C?
+6
+
+14.
+Grafique el árbol obtenido con la raíz C
+Screen Shot 2018-07-24 at 11.40.28 AM.png
+
+Screen Shot 2018-07-24 at 11.45.02 AM.png
+
+15.
+Determine la altura y el nivel del árbol considerando como raíz el vértice d
+Screen Shot 2018-07-24 at 11.51.57 AM.png
+Nivel: 4 Altura: 5
+
+16.
+¿Cuál es el coste total del árbol de expansión mínima para este gráfico?
+
+Screen Shot 2018-07-24 at 11.53.29 AM.png
+28
+
+
+17.
+Tenga en cuenta el siguiente árbol
+Screen Shot 2018-07-24 at 11.54.46 AM.png
+¿Cuál es el recorrido del árbol en preorden?
+
+A B D E H I C F G
+
+
+18.
+Tenga en cuenta el siguiente árbol
+Screen Shot 2018-07-24 at 11.54.46 AM.png
+¿Cuál es el recorrido del árbol en In orden?
+
+D B H E I A F C G
+
+
+19.
+Tenga en cuenta el siguiente árbol
+Screen Shot 2018-07-24 at 11.54.46 AM.png
+¿Cuál es el recorrido del árbol en posorden?
+
+D H I E B F G C A
+
+
+20.
+Grafique la siguiente expresión aritmética a través de un árbol
+
+Screen Shot 2018-08-06 at 10.00.16 AM.png
+Screen Shot 2018-07-24 at 11.59.49 AM.png
+
+21.
+¿Cuál es el flujo máximo de a hasta d ?
+Screen Shot 2018-07-24 at 12.01.14 PM.png
+
+12
