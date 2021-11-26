@@ -1,0 +1,84 @@
+Al aplicar una matriz a un vector lo que obtenemos es:
+Un vector transformado linealmente.
+
+
+2.
+Un autovector de una matriz de 2x2 es aquel que cuando le aplico la matriz al autovector:
+Su direccion no cambia.
+
+3.
+Dada la matriz [[3 4] [3 2]], ¿Cuáles son sus autovalores y autovectores asociados?
+autovector_1 = [0.8, 0.6] autovalor_1 = 6 autovector_2 = [-raiz(2)/2, raiz(2)/2] autovalor_2 = -1
+
+4.
+Una matriz A cuadrada a la que puedo calcularle sus autovalores y autovectores asociados se puede descomponer como:
+autovectores.dot(np.diag(autovalores)).dot(autovectores.T)
+
+5.
+Una matriz A no cuadrada, ¿Cuándo se puede descomponer?
+Siempre, podemos usar la descomposicion en valores singulares SVD
+
+6.
+Una forma simple de visualizar el efecto que la aplicación de una matriz A de 2x2 tiene es:
+
+Graficar el círculo unitario y el circulo unitario transformado.
+
+
+	7.
+	Al descomponer una matriz no cuadrada A por el método SVD obtenemos 3 matrices, U, D, V. Donde podemos interpretar a cada matriz como una transformación que debe ser aplicada en el siguiente orden:
+	U -> Escala D -> Rotación a derecha V -> Rotación vertical
+U->Primera rotacion, D->Escala U, V->Segunda rotacion (esta opcion no estoy segura si ya la puse)
+	U->Primera rotacion, D->Escala V, V->Segunda rotacion
+	U->Compresion D-> Rotación V-> Varianza
+
+8.
+Usar np.linalg.svd para descomponer una matriz por el método SVD nos devuelve 3 objetos U, D, V ¿Qué es D?
+Un vector que contiene los valores singulares en orden descendente
+
+9.
+Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos:
+Un vector con el valor de cada pixel de la imagen
+
+10.
+Cuando aplicamos la descomposición SVD a una imagen podemos:
+U[:, :1], D[:1] y V[:1,:]
+
+11.
+Al descomponer por SVD a una matriz que contiene los pixeles de una imagen podemos reducir su tamaño y consecuentemente la definición al:
+
+Elegir la cantidad de valores singulares que conservaremos.
+
+
+12.
+¿Cuál es la pseudoinversa de Moore Penrose de la matriz?
+[[1 2]
+[3 4]
+[5 6]]
+
+[[-1.33333333 -0.33333333 0.66666667] [ 1.08333333 0.33333333 -0.41666667]]
+
+13.
+Dado el sistema de ecuaciones lineales:
+
+y = 1 * x + 4
+y = 2 * x + 5
+y = -3 * x + 6
+
+¿Cuál es la solución usando la pseudoinversa de Moore Penrose?
+
+[[0.28571429] [5. ]]
+
+14.
+¿Qué es PCA?
+Un método para reducir dimensiones que rotan los ejes.
+
+
+15.
+Cuando preparamos nuestros datos para aplicar PCA es importante que estén entre [0,1] o [-1,1] y estandarizarlos (por ejemplo dividir todos los elementos por el máximo valor que pueden tomar nuestros datos) porque:
+Proyecta los datos originales en las direcciones que maximizan la varianza
+
+16.
+Usando el algoritmo PCA de la librería sklearn.decomposition, ¿cómo especifico que quiero conservar el 80% de la varianza contenida en los datos?
+n_components = 0.80
+
+
