@@ -1,0 +1,76 @@
+¿Qué es EDA?
+Es el análisis exploratorio para entender los datos y conocer si podemos resolver el problema con ellos antes de hacer cualquier modelo.
+2.
+¿Cuál es una diferencia entre el EDA y el análisis clásico?
+En EDA el desarrollo del modelo se encuentra después del análisis de datos.
+3.
+Nombra dos herramientas para desarrollar un EDA.
+Python, Sagemaker.
+4.
+¿Cuáles son algunas librerías de visualización?
+Altair y Seaborn.
+5.
+¿Cuáles son las transformaciones de datos más empleadas?
+pd.to_datetime, pd.date_range
+6.
+¿Cuáles son dos medidas descriptivas?
+mean, mode
+7.
+¿Cuáles son las diferencias entre variable continua y variable discreta?
+
+Continua: cuando puede tomar cualquier valor dentro de un intervalo. Discreta: cuando no puede tomar ningún valor entre dos consecutivos.
+
+8.
+¿Qué establece la ley de grandes números?
+Engloba varios teoremas que describen el comportamiento del promedio de una sucesion de variables aleatorias conforme aumenta su numero de ensayos.
+
+	9.
+	¿Qué indica una asimetría negativa?
+	Existe el mismo número de valores a la derecha que a la izquierda de la media, por tanto, el mismo número de desviaciones con signo positivo que con signo negativo.
+	La cola a la derecha de la media es mas larga que la de la izquierda, es decir, si hay valores mas separados de la media a la derecha
+	La medida que los datos se vuelven mas simetricos, el valor de su asimetria se acerca a cero.
+	
+10.
+¿Qué comandos usamos para agrupar datos?
+groupby(), .agg()
+11.
+Al unir dos o más datasets ¿cómo podemos distinguirlos?
+Añadiendo una propiedad a cada dataset, puede ser una característica que se comparta.
+12.
+¿Cuál es la sintaxis para crear una pivot table con pandas?
+
+pd.pivot_table(nombre_dataset, index=['columna_a', 'columna_b'])
+
+13.
+¿Qué es la correlación?
+La correlación indica la fuerza y la dirección de una relación lineal y proporcionalidad entre dos variables estadísticas.
+
+	14.
+	¿Qué es un análisis multivariable?
+	Es la estructura a datos relevantes y variables individuales. Los estudios factoriales se centran en diferentes variables, por lo que se subdividen en análisis de componentes principales y análisis de correspondencia.
+	Determina la influencia de varias variables o de variables individuales en grupos calculando promedios estadisticos
+	Es la influencia de dos tipos de variables una sobre la otra. Se habla de variables dependientes y no dependientes. Las primeras son las llamadas variables explicadas.
+	
+
+15.
+¿Qué es la paradoja de Simpson?
+Se denomina paradoja de Simpson (o efecto Yule-Simpson) al cambio en el sentido de una asociación entre dos variables, numéricas o cualitativas, cuando se controla el efecto de una tercera variable.
+16.
+¿Qué es causalidad?
+La causalidad es el principio o el origen de algo. El concepto se utiliza para nombrar a la relación entre una causa y su efecto, y puede utilizarse en el ámbito de la física, la estadística y la filosofía.
+17.
+¿Qué es una serie de tiempo?
+Una serie de tiempo es una secuencia de datos u observaciones, medidos en determinados momentos y ordenados cronológicamente. Visualmente es una curva que evoluciona en el tiempo.
+18.
+¿Cuáles son algunas propiedades de una serie de tiempo?
+Estacionalidad, tendencia.
+19.
+¿Qué es el p-value?
+
+El p-value es una medida directa de lo verosímil que resulta obtener una muestra como la actual si es cierta H0. Los valores pequeños indican que es muy infrecuente obtener una muestra como la actual, en cambio, los valores altos que es frecuente.
+20.
+¿Cómo evalúas un modelo?
+Todas las opciones.
+21.
+¿Qué obtienes al final del EDA?
+Todas las opciones.
