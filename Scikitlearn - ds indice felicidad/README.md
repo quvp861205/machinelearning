@@ -23,3 +23,9 @@ Implementación de regresión robusta
 Usando el dataset del índice de felicidad aprenderemos a limpiar y transformar datos atípicos para procesarlos por medio de un regresión robusta.
 
 > [Apuntes del curso](proyecto.md)
+
+Datasets que usaremos en el curso:
+
+    World Happiness Report: Es un dataset que desde el 2012 recolecta variables sobre diferentes países y las relaciona con el nivel de felicidad de sus habitantes. Nota: Este data set lo vamos a utilizar para temas de regresiones
+    The Ultimate Halloween Candy Power Ranking: Es un estudio online de 269 mil votos de más de 8371 IPs deferentes. Para 85 tipos de dulces diferentes se evaluaron tanto características del dulce como la opinión y satisfacción para generar comparaciones. Nota: Este dataset lo vamos a utilizar para temas de clustering
+    Heart disease prediction: Es un subconjunto de variables de un estudio que realizado en 1988 en diferentes regiones del planeta para predecir el riesgo a sufrir una enfermedad relacionada con el corazón. Nota: Este data set lo vamos a utilizar para temas de clasificación.
