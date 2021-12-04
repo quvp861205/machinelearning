@@ -1,0 +1,102 @@
+¿Cuál es la mejor estrategia de aprendizaje a seguir si tenemos una gran cantidad de información etiquetada de nuestro problema?
+Aprendizaje supervisado
+2.
+¿Todos los problemas de Inteligencia Artificial se pueden solucionar con técnicas de Machine Learning?
+Falso
+3.
+¿Cuál de estas NO es una limitación de scikit-learn?
+No se puede extender su funcionalidad con librerías externas
+	4.
+	¿Se pueden crear aplicaciones basadas en Machine Learning EFECTIVAS y ROBUSTAS sin las adecuadas bases matemáticas?
+	No, es imposible predecir los resultados finales sin matemáticas
+	Si, probando todas las posibles combinaciones de parametros para todos los posibles modelos que existen
+5.
+¿Por qué es importante crear un entorno virtual usando virtualenv?
+Para aislar nuestras librerías, con sus versiones y el interprete entre diferentes proyectos
+6.
+¿Es el Machine Learning una herramienta para mejorar la calidad de vida y lograr la felicidad de las personas?
+Verdadero
+7.
+¿Qué significa que nuestros resultados tengan alta varianza?
+Que las predicciones de nuestro modelo pueden alejarse mucho de lo esperado
+8.
+¿Qué significa que nuestro modelo presente underfitting?
+Que no ha sido capaz de generalizar por la complejidad o cantidad de información disponible
+9.
+¿PCA es una técnica de...?
+Reducción de la dimensionalidad de un problema
+10.
+La matriz de covarianza aplicada a un dataset nos muestra...
+La correlación entre todos los features
+
+11.
+¿Qué es un kernel en el contexto de machine learning?
+Una funcion que aumenta la dimensionalidad de nuestros datos
+
+12.
+¿En qué módulo de scikit-learn encontramos los algoritmos relativos al PCA?
+decomposition
+	13.
+	¿Cuál es el principio fundamental que rige la regularización?
+	Disminuir el sesgo y la varianza con una penalización arbitraria
+	Mejorar la eficiencia global del algoritmo penalizando los malos resultados
+14.
+La regularización que lleva los valores insignificantes a cero es...
+Lasso
+15.
+¿La regularización Lasso Siempre es mejor que la Ridge para todos los casos?
+Falso
+16.
+¿Cuál de estas no es una técnica para identificar valores atípicos?
+Usar regresiones para estimar posibles valores fuera de los rangos determinados
+17.
+¿Una medición mal realizada puede generar valores atípicos en un dataset?
+Verdadero
+18.
+El algoritmo que descarta los valores atípicos usando un umbral sobre el valor de la pérdida es...
+Huber Regresor
+19.
+¿Cuál de estas afirmaciones es cierta?
+Los metodos de ensamble siempre necesitan un metodo de consenso
+20.
+¿Cuál de estos no es un algoritmo basado en métodos de ensamble?
+Naive Bayes
+21.
+¿Qué significa el parámetro k en los métodos de clustering?
+La cantidad de grupos esperados como salida
+22.
+Los algoritmos de clustering son en general una estrategia de aprendizaje...
+No supervisado
+23.
+¿Batch K-Means debería en teoría arrojar resultados muy similares o iguales a K-means?
+Verdadero
+24.
+¿Cuál de las estrategias de validación es la que requiere menos recursos computacionales?
+Hold-on
+25.
+¿Qué significa el parámetro K en Cross Validation?
+Numero de subconjuntos de prueba en los que se parte el dataset
+26.
+¿Con qué estructura de datos de Python se guardan la configuración de los parámetros a probar a la hora de hacer GridSearchCV en scikit-learn?
+Dictionary
+27.
+¿Garantiza RandomizedSearchCV una configuración óptima de los parámetros en los rangos establecidos?
+Falso
+28.
+¿A qué módulo de sklearn pertenecen GridSearchCV y RandomizedSearchCV?
+model_selection
+29.
+¿autosklearn es un módulo propio de scikit-learn?
+Falso
+30.
+¿Cuál de estas no es una ventaja de encapsular nuestro código en Clases?
+Reducción del tamaño del proyecto
+31.
+¿Cuál es la librería de python usada para importar y exportar modelos de scikit-learn?
+joblib
+32.
+Cuando se crea una API con Flask ¿Siempre es necesario definir una ruta para ejecutar el algoritmo?
+Verdadero
+33.
+Cuando se ejecuta un modelo de machine learning a través de una API es necesario reentrenar todo desde cero
+Falso

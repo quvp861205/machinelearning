@@ -1,0 +1,95 @@
+La comunicación es un concepto:
+Polisémico, ambigüo y multidimensional.
+
+2.
+¿Cuál es el esquema básico de Shannon y Weaver?
+Emisor, mensaje, receptor.
+
+3.
+Sobre la fuente:
+Es previa a la constitución del mensaje.
+
+4.
+¿Qué es una señal?
+Cada uno de los símbolos que componen la fuente o repertorio.
+
+5.
+¿Qué es el ruido?
+Perturbación en el medio que enmascara la información.
+
+6.
+¿Cuáles son ejemplos de códigos basados en lógica binaria?
+Morse y Braille
+7.
+Los coeficientes binomiales nacen porque:
+Se necesita seleccionar el numero de variables dadas en relacion
+
+8.
+¿Cuáles son las principales funciones de probabilidad?
+FDP, CDF, distribución marginal.
+
+9.
+¿Qué es la entropía?
+Desorden.
+
+10.
+Es un ejemplo de entropía relativa:
+Todas las opciones son correctas.
+
+
+11.
+Son tipos de simetrías:
+Todas las opciones son correctas.
+
+
+	12.
+	¿Cuáles son los principales problemas de la comunicación?
+	Sistema, entorno, organización.
+	https://platzi.com/clases/2163-teoria-informacion/33842-pilares-de-la-informacion/
+	todas las opciones
+	Interaccion, determinismo estructural, acoplamiento
+
+13.
+En una bolsa hay 7 bolas blancas y 3 negras ¿Cuál es la probabilidad de que al extraer cuatro bolas a la vez sean las cuatro blancas?
+1/6
+
+14.
+¿Cuál es la probabilidad de que al lanzar una moneda se obtenga cara?
+1/2
+
+15.
+¿Cuál es la razón fundamental por la que los seres humanos necesitan estrategias para manejar la información de forma eficiente?
+Fundamentalmente adaptativa: tiene que ver con la posibilidad de sacar el maximo partido de una situacion optimizando los recursos cognitivos
+
+16.
+¿Cuáles son modelos de comunicación?
+Todas las opciones
+
+
+17.
+Los principales pilares de la información son:
+Compresion, confiabilidad, eficiencia
+
+18.
+Son modelos de compresión:
+Huffman y Lempel-Ziv (GZIP)
+
+19.
+¿Qué es una fuente discreta sin memoria?
+Es en la que la emisión de cada símbolo es independiente.
+
+20.
+¿Qué son los códigos cíclicos?
+Todas las opciones.
+
+21.
+¿Qué es una cadena de Markov?
+Todas las opciones.
+
+	22.
+	¿Qué oración se relaciona con el canal ruidoso?
+
+	Cuenta con un esquema de codificación y decodificación que puede ser usado para asegurar que la probabilidad del error de bloqueo es menor en un código largo.
+	https://platzi.com/clases/2163-teoria-informacion/33846-codificacion-de-canal/
+	Es determinado por el limite de shannon
+	Esta limitado por la cantidad de informacion	
