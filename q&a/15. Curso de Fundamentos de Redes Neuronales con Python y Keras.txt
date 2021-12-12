@@ -1,0 +1,124 @@
+Keras es un API que facilita el trabajo de crear redes neuronales, Keras usa el siguiente backend como su fuente:
+Tensorflow
+2.
+Es uno de los grandes problemas de trabajar con deep learning
+Overfitting
+3.
+
+¿En qué consiste el aprendizaje “profundo”?
+Las capas reciben información de la capa anterior, las procesan y el resultado lo van pasando a las siguientes capas, haciendo un aprendizaje más detallado cuanto más capas existan en la red.
+4.
+¿Cuál es la función del BIAS en la neurona?
+Dar más flexibilidad al modelo desplazando la respuesta lineal en los ejes
+5.
+
+¿En qué consisten las sumas ponderadas de la neurona?
+
+Realizar un producto punto entre los datos de entrada y los pesos asociados a la neurona.
+6.
+Es uno de los problemas que una neurona o perceptrón no puede solucionar, por sus propias limitantes
+
+XOR
+7.
+
+En una red neuronal las primeras capas obtienen la información más general de los datos y las últimas capas información más específica o detallada. Esta afirmación es:
+
+Verdadera
+
+	8.
+	¿Por qué son necesarias las funciones de activación?
+	Con una función de activación puede realizar las derivadas parciales y con su resultado aplicar el paso de información de capas superiores a capas inferiores.
+	Porque aseguran mayor convergencia en el algoritmo del gradiente descendiente
+
+	
+9.
+
+¿A qué función pertenece esta representación?
+RELU.png
+ReLU
+10.
+
+¿A qué función pertenece esta representación?
+hipr.png
+Tanh
+11.
+
+Es una función de activación muy útil que también cuenta con derivada y funciona perfecto cuando queremos resolver un problema de probabilidad binaria:
+Sigmoid
+12.
+
+¿Cuál es el objetivo de la función de pérdida?
+
+Identificar numéricamente el error o diferencia entre los valores predichos y los reales.
+13.
+
+¿Es posible derivar la función de pérdida?
+Verdadero
+14.
+¿Cuál es el principal objetivo del descenso del gradiente?
+
+Encontrar paso a paso el mínimo global en la función de pérdida
+15.
+Podemos decir que el learning rate "LP" es:
+
+Un delta que me indica el tamaño de los “pasos” que se aplican al descenso del gradiente en cada iteración.
+
+16.
+Uno de los conceptos inspirados en la física para evitar que el descenso del gradiente se estanque en un mínimo local es:
+Momentum
+
+17.
+Una de las desventajas de tener un learning rate LR muy bajo es:
+
+El entrenamiento de la red neuronal será más lento.
+18.
+
+El objetivo del backpropagation es:
+Distribuir el error a través de toda la red neuronal para actualizar sus pesos de acuerdo a dicho error.
+19.
+En numpy (np) podemos usar esta función para realizar un producto punto
+matmul
+20.
+
+Como buena práctica en deep learning, ¿en cuántos sub sets de datos es mejor dividir nuestros datos?
+3
+21.
+La función de pérdida recomendada para resolver un problema de clasificación binaria es:
+Binary_crossentropy
+22.
+¿Qué función de activación en la última capa es recomendable para un problema de clasificación binaria?
+Sigmoid
+23.
+
+La función de pérdida recomendada para resolver un problema de clasificación múltiple es:
+
+categorical_crossentropy
+24.
+¿Qué función de activación en la última capa es recomendable para un problema de clasificación múltiple?
+Softmax
+25.
+
+La función de pérdida recomendada para resolver un problema de regresión con valores arbitrarios es:
+MSE
+
+26.
+¿Qué función de activación en la última capa es recomendable para un problema de regresión?
+linear o none
+
+27.
+Podemos clasificar a sets de datos de dos dimensiones como:
+Matrices
+28.
+La función de pérdida Cross Entropy funciona mejor con problemas de:
+Clasificación
+
+29.
+La regularización L1 consiste en incrementar el valor de la función de pérdida basándonos en:
+Los valores elevados al cuadrado de los pesos de la red
+Darle mas peso a la funcion de costo para que sea mas castigada
+L1, funciona con los valores absolutos de los pesos de la neurona, sumarse a la funcion de costo y van a castigarla 
+L2, funciona con los valores elevados al cuadrado de los pesos de la neurona, sumarse a la funcion de costo y van a castigarla, ademas con un delta va multiplicar los pesos en valores absolutos 
+	
+30.
+La capa de dropout consiste en:
+Dejar en 0 aleatoriamente una fraccion de las neuronas en la salida de la capa

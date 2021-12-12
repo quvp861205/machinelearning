@@ -1,0 +1,46 @@
+Si tengo una lista de listas de palabras, corpus = [[],[],[],[]] la manera correcta de concatenar todas las sublistas en Python sería escribiendo:
+flatten = [w for l in corpus for w in l]
+2.
+Sea la lista arr = ['carro', 'moca', 'foca', 'macarrón'], el resultado de filtrar las palabras con la expresion regular '^ca' es:
+['carro']
+3.
+Si tienes una lista ll = ['hola', 'hola', 'mundo', 'tengo' , 'frio', 'si', 'si', ...], una manera correcta de obtener el vocabulario correspondiente, en formato de lista (Python), sería:
+
+sorted(set(ll))
+4.
+Considerando el siguiente código: ll = ['vamos', 'a', 'ver', 'a', 'que', 'tipo', 'de', 'moneda', 'vamos', 'a', 'convertir']; fdist = FreqDist(ll); Luego de esto, el resultado de escribir fdist.most_common(2) sería:
+[('a', 3), ('vamos', 2)]
+5.
+Considerando una lista de texto tokenizado con un vocabulario = ['off', 'spring','and', 'seized', 'anything', 'critical', 'the', 'in', 'thus'] y un fdist = [('off', 244), ('spring', 23), ('and', 300), ('seized', 16), ('anything', 24), ('critical', 67), ('the', 240), ('in', 23), ('thus', 12)], entonces el resultado de construir la lista [(w, fdist[w]) for w in vocabulario if len(w) < 4 and fdist[w] >240] sería:
+[('off', 244), ('and', 300)]
+6.
+Dado un conjunto de bigramas, md_bigrams = list(bigrams(text1)) de un text1 con su respectiva distribución de frecuencias fdist = FreqDist(md_bigrams), si queremos obtener una lista filtrada de bigramas tales que la primera palabra del bigrama tenga longitud mayor o igual a 5 caracteres y la segunda palabra tenga una frecuencia de aparición en el texto mayor a 50 veces, entonces debo escribir:
+[bigram for bigram in md_bigrams if len(bigram[0])>=5 and fdist[bigram[1]] > 50]
+7.
+
+Si se tiene un Dataframe df = pd.DataFrame() con tres columnas [‘col1’, ‘col2’, ‘col3’] pobladas con números decimales y deseo realizar la operación x/(a*b) donde ‘x’ representa valores en ‘col1’, ‘a’ valores en ‘col2’ y ‘b’ valores en ‘col3’, para luego almacenar los resultados en una cuarta columna ‘col4’ usando una función lambda, la línea de código correcta sería:
+df['col4'] = df[['col1', 'col2', 'col3']].apply(lambda x: x.values[0]/x.values[1]*x.values[2])
+8.
+
+Entre los recursos léxicos que pueden ser usados en NLP tenemos los Stopwords, los cuales son:
+Conjuntos de palabras que no aportan significado por sí solas.
+9.
+Una de las siguientes frases es falsa sobre el lexicon WordNet:
+Es un lexicon no enriquecido.
+10.
+Para calcular la medida de distancia semántica entre synsets diferentes dentro de WordNet, una opción correcta de hacerlo es:
+synset1.path_similarity(synset2)
+11.
+Cuando necesitas hacer una petición a una url para traer los contenidos de un archivo HTML en Web, una librería apropiada para esta tarea es:
+requests
+12.
+Si tengo un bloque de código que estoy usando repetidas veces en un flujo de procesamiento, lo más apropiado sería:
+Verificar si el bloque de codigo se puede escribir en menos líneas y luego definir una función que puedo llamar varias veces.
+13.
+
+Una de las siguientes estructuras NO es un recurso léxico:
+np.array([10,23,45,21])
+14.
+
+Las colocaciones:
+Reflejan el efecto de una cultura en el uso del lenguaje

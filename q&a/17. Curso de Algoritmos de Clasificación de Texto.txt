@@ -1,0 +1,100 @@
+En la frase: "mi hermano es muy noble", la palabra noble hace referencia a:
+Un adjetivo
+
+2.
+Una de las siguientes no es una categoría de ambigüedades del lenguaje:
+Vectorial
+
+3.
+El tokenizador por defecto en NLTK para el idioma inglés es:
+punkt
+
+4.
+En una cadena de Markov se necesitan los siguientes elementos:
+matrices de transicion y distribucion inicial de estados
+
+	
+5.
+En un Modelo Markoviano Latente se necesitan los siguientes ingredientes:
+Matrices de transición, emisión y distribución inicial de estados.
+
+6.
+Entrenar un Modelo Markoviano Latente significa:
+Calcular las matrices de probabilidad de transicion y emision con un corpus de textos
+
+
+7.
+Dada una cadena de texto text en inglés, el procedimiento para asignar las etiquetas gramaticales con NLTK es:
+nltk.post_tag(word_tokenize(text))
+	
+8.
+Dada una cadena de texto text en español, el procedimiento para asignar las etiquetas gramaticales con Stanza es a partir de un objeto nlp(text), donde:
+nlp = stanza.Pipeline('es', processors='tokenize,pos')
+
+9.
+El proceso mediante el cual un Modelo Markoviano Latente determina la secuencia de etiquetas más probable para una secuencia de palabras es:
+Usando el algoritmo de Viterbi para obtener la categoria mas probable palabra por palabra
+
+10.
+En un Modelo Markoviano Latente, el problema de calcular la secuencia de etiquetas más probable se expresa con la siguiente expresión matemática:
+$${\arg \max}_{(t^n)}\prod_i P(w_i \vert t_i)P(t_i \vert t_{i-1})$$
+
+11.
+Un algoritmo general de clasificación de texto:
+Es un algoritmo de Machine Learning supervisado.
+
+12.
+El clasificador de Naive Bayes es:
+Un clasificador probabilístico que hace uso de la regla de Bayes.
+
+13.
+Con Naive Bayes preferimos hacer cálculos en espacio logarítmico para:
+Evitar productos de números demasiado pequeños para la precisión de máquina.
+
+14.
+Para entrenar un clasificador de Naive Bayes en NLTK, se escribe en Python:
+nltk.NaiveBayesClassifier.train(data)
+	
+15.
+El accuracy de entrenamiento de un modelo se calcula como:
+(numero de veces que el modelo predice la categoria correcta)/(total de datos usados para entrenamiento)
+
+16.
+Si tienes un modelo de clasificación binaria que luego de entrenarlo, obtienes que el número de verdaderos positivos es 200 y el número de 
+200/320
+
+17.
+En un problema de clasificación de emails entre SPAM y HAM, la métrica de recall tiene la siguiente interpretación:
+De todos los correos que realmente son SPAM, la fraccion que el modelo logro identificar
+
+18.
+Si tenemos una cadena de Markov para describir las probabilidades de transición en cuanto al clima de un dia para otro, y observamos la siguiente secuencia de estados día tras día: (frío, frío, caliente, frío, tibio, caliente, tibio, frío), entonces la probabilidad de transición P(caliente|frío) es:
+50%
+
+19.
+Si tenemos un dataset etiquetado donde la categoría adjetivo (ADJ) aparece un total de 500 veces entre todos los tokens, y de esas veces solamente la palabra "noble" le corresponde 200 veces, entonces podemos decir que:
+La probabilidad de emisión P(noble|ADJ) = 40%
+
+20.
+El problema de clasificación de texto pertenece a la categoría de Machine Learning supervisado porque:
+Durante el entrenamiento, el modelo tiene conocimiento de las etiquetas correctas que debería predecir.
+	
+21.
+Para un modelo de clasificación de palabras con Naive Bayes en NLTK, debemos entrenar el algoritmo usando: 
+train_set = [(atributos(palabra), categoria]
+
+22.
+La ingeniería de atributos se usa para:
+Construir atributos particulares de palabras y textos que permitan dar un input más apropiado a un modelo de clasificación.
+
+23.
+En un modelo de clasificación por categorías gramaticales, el algoritmo de Viterbi se usa para:
+el proceso de decodifiacion: encontrar la secuencia de etiquetas mas probable
+
+24.
+En un modelo MEMM:
+El proceso de decodificación es similar al de un HMM, y por lo tanto se puede usar un tipo de algoritmo de Viterbi.
+
+25.
+El suavizado de Laplace se usa en un algoritmo de clasificación con el objetivo de:
+Evitar probabilidades nulas y denominadores iguales a cero.
