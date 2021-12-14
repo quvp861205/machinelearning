@@ -1,62 +1,83 @@
 ¿Cuál es la nombre de la célula en base a la cuál se crea el modelo de perceptrón?
 Neurona
+
 2.
 ¿Qué es lo que se modifica durante el proceso de entrenamiento de una red neuronal?
 Los pesos y parámetros
+
 3.
 La forma de conseguir que una máquina aprenda es:
 Proporcionarle datos de entrenamiento y los resultados esperados para que entienda los patrones
+
 4.
 El descenso de gradiente es un:
 Algoritmo de optimización de funciones
+
 5.
 Esta NO es una razón por la que el aprendizaje profundo se ha vuelto más popular:
 Las neuronas se han vuelto más grandes
-	6.
-	Lo más importante al momento de diseñar y crear algoritmos de aprendizaje profundo es tener:
-	Saber mucho de matemáticas y estadística
+
+6.
+Lo más importante al momento de diseñar y crear algoritmos de aprendizaje profundo es tener:
+buenas preguntas y datos confiables
+
 7.
 ¿Qué es TensorFlow?
 Un entorno completo de desarrollo de aprendizaje de máquina
+
 8.
 Este NO es un paso básico para el uso de TensorFlow
 Configurar mi CPU
+
 9.
 TensorFlow.js me permite ejecutar modelos de aprendizaje en:
 El navegador
+
 10.
 Usar aprendizaje de máquina en el navegador es un reto, ya que:
 No podemos consumir energía o batería ilimitada
+
 11.
 Una forma en la que el aprendizaje hace escalable mis servicios es:
 Transfiriendo parte del aprendizaje a los dispositivos cliente
+
 12.
 Una de las ventajas principales de usar aprendizaje de máquina en el navegador es:
 La privacidad de los datos que no viajarán por la red
+
 13.
 Las partes principales de un modelo son:
 Entradas, capas y salidas
+
 14.
 La forma en la que aprendimos a crear modelos fue a través de la API de:
 Layers API
+
 15.
 Una de las funciones que la API de Layers NO proporciona es:
 Invalidación de parámetros
+
 16.
 Para entrenar un modelo tenemos que separar nuestros datos en:
 Datos de entrenamiento y datos de evaluación
+
 17.
 Antes de entrenar un modelo debemos elegir:
 Un optimizador, función de pérdida y las métricas de evaluación
+
 18.
 Esta es una función para entrenar el modelo en TensorFlow.js
 model.fit()
-	19.
-	Este NO es un esquema que puede usarse para guardar datos en el navegador:
-	downloads://
+
+19.
+Este NO es un esquema que puede usarse para guardar datos en el navegador:
+file://
+	
 	20.
 	Este es un método de optimización de modelos:
 	Compresión lineal
+	Aumento del gradiente
+
 21.
 Para cargar un modelo en el navegador debo usar la función:
 tf.loadLayersModel()
@@ -70,22 +91,27 @@ model.predict()
 24.
 La transferencia de aprendizaje nos ayuda a:
 Reutilizar modelos pre-entrenados para necesidades particulares
+
 25.
 Un modelo de regresión lineal te permite:
 Predecir una variable a partir de otra
+
 26.
 Esta librería nos permite visualizar datos en el navegador
 tfjs-vis
-	27.
-	Algunos retos para la clasificación de imágenes mediante aprendizaje de máquina son:
-	La falta de memoria de nuestro navegador
-28.
 
+27.
+Algunos retos para la clasificación de imágenes mediante aprendizaje de máquina son:
+Las condiciones de iluminacion, pose y distorcion de las imagenes utilizadas
+	
+28.
 Es indispensable utilizar este tipo de funciones al momento de usar TensorFlow.js
 Asíncronas
+
 29.
 Una función de clasificación de imágenes normalmente nos regresará:
 Los porcentajes de probabilidad de que una imagen pertenezca a varias clasificaciones
-	30.
-	Es un modelo pre entrenado para clasificación de imágenes
-	KNN Classifier
+
+30.
+Es un modelo pre entrenado para clasificación de imágenes
+Mobilenet
