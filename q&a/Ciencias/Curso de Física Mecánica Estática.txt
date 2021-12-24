@@ -1,0 +1,147 @@
+¿Qué significa que un cuerpo sea perfectamente rígido?
+
+Que no sufre deformaciones bajo la acción de una fuerza.
+2.
+
+Si un cuerpo está en reposo, significa que no hay fuerzas actuando en él.
+
+Falso.
+3.
+
+¿Cuál de estas unidades no está incluida en el sistema internacional de unidades de medida?
+
+La pulgada.
+4.
+
+¿Qué múltiplo representa el prefijo k?
+
+1.000
+5.
+
+¿A cuántos mm corresponden 10 km?
+
+10.000.000
+6.
+
+¿A cuántos N/cm^2 corresponde 1 kN/m^2?
+
+0,1
+7.
+
+La magnitud de un momento, posee unidades de fuerza dividido por unidades de longitud. Por ejemplo: N/m.
+
+Falso.
+8.
+
+Dadas las fuerzas F1 =(3i + 4j) y F2 = (2j + 3k). El valor de F1 - 2*F2, será igual a:
+
+3i - 6k
+
+9.
+¿Cuál es la magnitud de la componente Fx de la siguiente situación?
+Curso-fisica-platzi9.jpg
+F*sen(30°)
+10.
+
+Dados los vectores A, B y C. ¿Cuál de las siguientes afirmaciones es verdadera?
+Curso-fisica-platzi-10.jpg
+
+B + C = A
+11.
+
+¿Cuál de las siguientes sumas de fuerzas corresponde a una partícula en equilibrio?
+Curso-fisica-platzi-11-c.jpg
+12.
+
+El momento de una fuerza F respecto a un punto O es coplanar a la fuerza F y recibe su sentido de acuerdo a la regla de la mano derecha.
+
+Falso.
+13.
+
+¿Cuál será el sentido de momento que produce la fuerza F con respecto al eje O?
+Curso-fisica-platzi-13.jpg
+Nulo
+14.
+
+El principio de transmisibilidad nos dice que las condiciones de equilibrio o de movimiento de un cuerpo rígido no cambiará si la fuerza F actuando sobre él en un punto cualquiera es reemplazada por:
+
+Una fuerza F’ con la misma magnitud y dirección, actuando en la misma línea de acción.
+15.
+¿En qué caso el principio de transmisibilidad no debe ser utilizado?
+Al calcular los esfuerzos internos en un cuerpo.
+16.
+
+¿Cuál será el módulo del momento Mo en el siguiente caso?
+Curso-fisica-platzi.jpg
+
+Frsin(alfa)
+17.
+De acuerdo al teorema de Varignon, ¿cuál es el valor del momento Mo?
+Grafias-Examen-17.jpg
+Fx*y + Fy*x
+
+18.
+Dado que todas las fuerzas mostradas posean la misma magnitud, ¿cuáles de ellas formarán un par?
+Curso-fisica-platzi18.jpg
+F2 y F5
+	
+19.
+¿Cuál será la magnitud del momento generado por el par de fuerzas mostrado en la figura?
+Curso-fisica-platzi-19.jpg
+F*a
+
+20.
+
+Si un cuerpo rígido es sometido a dos fuerzas, sólo podrá estar en equilibrio si las dos fuerzas tienen la misma magnitud, la misma línea de acción y sentidos opuestos.
+
+Verdadero.
+
+21.
+Dado el siguiente reticulado, ¿qué elementos estarán sometidos a compresión?
+Curso-Fisica-platzi21.jpg
+BD y DF
+	
+22.
+Dado el siguiente reticulado. ¿qué elementos estarán sometidos a tensión?
+Curso-Fisica-platzi21.jpg
+AC Y CE
+
+23.
+
+Para el reticulado mostrado en la figura, se realiza un diagrama de cuerpo libre del nudo C. ¿Qué se espera de la barra AC?
+Curso-fisica-platzi-23.jpg
+
+Que esté en compresión.
+24.
+
+El reticulado mostrado en la figura corresponde a un reticulado simple.
+Curso-fisica-platzi24.jpg
+
+Verdadero.
+
+25.
+¿Cuál es el valor del momento que produce la fuerza F de 5N con respecto al eje x en la siguiente figura?
+Grafias-Examen-25.jpg
+0
+	
+26.
+¿Cuál de las siguientes secciones te ayudará a obtener la fuerza interna de la barra AD?
+Curso-fisica-platzi 26.jpg
+X-X
+	
+27.
+¿Qué reacciones producirá el siguiente sistema de apoyo?
+Curso-fisica-platzi27.jpg
+Rx, Ry, Mz
+	
+28.
+El peso propio de un cuerpo es una fuerza interna.
+Falso.
+
+29.
+Si un cuerpo está sometido a 3 fuerzas, dicho cuerpo sólo estará en equilibrio si las líneas de acción de las 3 fuerzas son concurrentes.
+Falso.
+
+30.
+¿Cuántas ecuaciones de equilibrio linealmente independientes tenemos en el análisis en 3D de cuerpos rígidos?
+6

@@ -1,0 +1,65 @@
+1.
+Calcula pregunta 1.PNG
+Calcula 4i( (sqrt(3-)-1) (sqrt(3)+1) )
+8i
+
+2.
+Captura de pantalla 2019-01-22 a la(s) 15.29.20.png
+Resuelve (x+2)(x^2-9)=0 
+x=(-2, 3, -3)
+	
+3.
+Resuelve x-y=3; 2x-3y=5
+y=1, x=4
+
+4.
+Multiplica image (18).png
+a.PNG
+
+5.
+Calcula el determinante de la matriz pregunta 5.png
+3   1  0
+-1  0  1
+2  -2  1
+ninguna es correcta
+
+6.
+Calcula los puntos de corte con los ejes de la funcion f(x)=-x^2+2x-1
+Captura de pantalla 2019-01-22 a la(s) 15.38.07.png
+(0,-1) y (1,0)
+
+7.
+Captura de pantalla 2019-01-22 a la(s) 15.42.54.png
+Haga la integral de la funcion x^5 en dx
+
+Captura de pantalla 2019-01-22 a la(s) 15.44.03.png
+x^6/6+c
+
+8.
+Haga el producto escalar de estos dos vectores (1,2,1) y (2,0,3)
+5
+
+9.
+Haga el producto vectorial de esos los vectores (1,2,1) y (2,0,3)
+(6,-1,-4)
+
+10.
+Calcule la pendiente de la recta (x-1)/2=(y+1)/4
+2
+
+11.
+Calcule la media de este conjunto de valores (4,3,5,2,8,5,1)
+4
+
+12.
+En un lanzamiento de dados qué probabilidad hay de sacar dos 6:
+1/36
+
+13.
+Deriva Capture.PNG
+f(x) = ln(x^2-1)
+2x / (x^2 - 1)
+
+14.
+integre entre 0 y 2 la funciones x^2 en dx
+8/3
