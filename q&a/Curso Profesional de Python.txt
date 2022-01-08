@@ -1,0 +1,92 @@
+¿De qué tipo es el lenguaje Python?
+Interpretado
+2.
+¿Qué es el Garbage Collector?
+Es una parte del motor de Python que se encarga de borrar las variables u objetos que ya no se usan.
+3.
+¿Qué guarda la carpeta __pycache__?
+El bytecode de tu proyecto.
+4.
+Un módulo es un conjunto de paquetes
+Falso
+5.
+¿Qué es un módulo?
+Es cualquier archivo de Python. Generalmente, contiene código que puedes reutilizar.
+6.
+El siguiente archivo establece que una carpeta determinada es un paquete
+__init__.py
+7.
+Los lenguajes de tipado estático verifican los errores de tipado en:
+Tiempo de compilación.
+8.
+Los lenguajes de tipado dinámico verifican los errores de tipado en:
+Tiempo de ejecucion.
+9.
+¿Qué módulo se utiliza para verificar los errores de tipado en un proyecto escrito en Python?
+MyPy
+10.
+Selecciona la forma correcta de declarar una variable de tipo string en Python:
+
+my_var: str = "Hello World"
+11.
+La siguiente función recibe un entero y un flotante como parámetros, y devuelve un booleano:
+
+def numbers(num1: int, num2: float) -> bool: pass
+12.
+La ventaja de aplicar tipado estático al código es:
+Todas las respuestas son correctas.
+13.
+¿Una variable definida en el scope de una función puede ser leída en el scope global?
+Falso
+14.
+¿Qué es una nested function?
+Una función definida dentro de otra función.
+15.
+Una nested function puede leer una variable de un scope superior
+Verdadero
+	16.
+	¿Cuál de las siguientes condiciones no es necesaria para encontrar un closure?
+	La función que envuelve a la nested function debe retornarla también.
+	La nested function debe referenciar un valor de un scope superior
+17.
+¿Dónde aparecen los closures?
+Todas las respuestas son correctas
+18.
+¿Qué es el azúcar sintáctico o sugar syntax?
+Es un añadido o abreviación de la sintaxis oficial de una pieza de código para hacer más fácil su comprensión y escritura.
+19.
+¿Qué es un decorador?
+Es una función que recibe como parámetro otra función, le añade cosas, y retorna una función diferente.
+20.
+Un iterador permite guardar una secuencia de datos infinita
+Verdadero
+21.
+¿Cuál es la función que permite obtener el inmediatamente siguiente elemento de un iterador?
+next
+22.
+¿Qué hace un generador con el estado de una función?
+Lo almacena hasta la siguiente aparición de la palabra clave yield.
+23.
+¿Cuál de los siguientes objetos no es un iterable?
+12345
+24.
+¿Cómo obtengo el siguiente número de la sucesión de Fibonacci?
+Sumo los dos números anteriores.
+25.
+¿Cuántas veces puede iterarse un generador?
+Una vez
+26.
+¿Qué son los conjuntos?
+Una colección desordenada de elementos únicos e inmutables.
+27.
+¿Cuál es el resultado de la unión de dos conjuntos?
+Un conjunto con los elementos de ambos.
+28.
+¿Cuál es el resultado de la diferencia simétrica de dos conjuntos?
+Un nuevo conjunto que contiene los elementos de ambos excepto los compartidos
+29.
+¿Cuál de las siguientes funciones no permite añadir elementos a un set?
+append
+30.
+¿Qué módulo nos permite trabajar con zonas horarias dentro de Python?
+pytz

@@ -1,0 +1,66 @@
+La probabilidad como área de estudio es:
+Un area de las matemáticas que nos enseña como cuantificar la incertidumbre
+2.
+Las dos escuelas principales de pensamiento probabilístico son:
+Frecuentista y bayesiana.
+3.
+En machine learning las principales fuentes de incertidumbre de un modelo son:
+Datos, atributos y arquitectura de un modelo.
+4.
+La probabilidad conjunta es:
+La probabilidad de 2 o mas eventos aleatorios
+5.
+La probabilidad condicional P(A | B) se interpreta como:
+La probabilidad de que suceda A sabiendo que ha sucedido B.
+6.
+
+La expresión matemática que describe correctamente la regla del producto es:
+P(A ∩ B) = P(A|B)P(B)
+7.
+Cuando se calcula una probabilidad condicional, el efecto que la condición tiene sobre el espacio muestral es:
+Reduce el espacio muestral
+8.
+
+Considera un juego de ruleta de dos jugadores apostando sobre 8 opciones diferentes, tenemos que el jugador 1 tiene su apuesta A= {2,4,6,8} y el jugador 2 apostó por las casillas B = {1,2,3,4}, entonces la probabilidad de que gane el jugador 1 sabiendo que la bolita cayó en una de las opciones de B es:
+P(1 | B) = 1/2
+9.
+Una distribución de probabilidad es:
+Una función matemática que asigna a cada posible ocurrencia de una variable aleatoria un número que llamamos la probabilidad de dicha ocurrencia.
+10.
+Si consideramos 5 lanzamientos de moneda (p=0.5) consecutivos, la probabilidad de obtener 3 caras es:
+5/16
+11.
+¿Cuál es la probabilidad de obtener 2 caras o menos a partir de 3 lanzamientos de moneda (p=0.5) ?
+7/8
+12.
+
+Si consideramos una variable aleatoria que sigue una distribución gaussiana con media igual a 4 y desviación estándar igual a 0.3, usando la función norm() de scipy.stats, la densidad de probabilidad de que dicha variable tenga el valor 0.2 está dada por:
+
+norm(4,0.3).pdf(0.2)
+13.
+Si consideramos una variable aleatoria que sigue una distribución gaussiana con media igual a 4 y desviación estándar igual a 0.3, usando la función norm() de scipy.stats, la probabilidad acumulada de que dicha variable tenga el valor 0.2 o menor está dada por:
+norm(4,0.3).cdf(0.2)
+	
+14.
+En el método de estimación paramétrica de una distribución de probabilidad:
+Suponemos una funcion para la distribucion y ajustamos los parametros de los datos
+15.
+El método de estimación no paramétrica se usa cuando:
+Los datos no siguen ninguna distribución de probabilidad conocida.
+16.
+En MLE escogemos los parámetros de la distribución de manera que:
+La distribución resultante, dados los datos y los parámetros, resulta en las maximas probabilidades posibles.
+17.
+En el caso de la regresión lineal, el uso de MLE es equivalente a:
+minimos cuadrados
+	
+18.
+La función de error que se usa en regresión logística se conoce como:
+Cross-entropy
+19.
+Es la representación matemática del teorema de Bayes:
+P(A|B) = [P(B|A)P(A)]/P(B)
+
+20.
+Dada una verosimilitud P(D|h) donde D = {x1, x2, …, xn} es un conjunto de datos y h es una hipótesis de modelamiento sobre esos datos, la hipótesis de Naive Bayes implica que:
+P(D|h) = P(X1,X2,…,Xn|h) = P(X1|h)P(X2|h)…P(Xn|h)

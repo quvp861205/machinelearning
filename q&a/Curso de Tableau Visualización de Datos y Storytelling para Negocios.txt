@@ -1,0 +1,62 @@
+Dentro de Tableau, ¿Cómo se llama la opción donde podemos cambiar el tipo de visualización de datos?
+"Mostrarme"
+	2.
+	¿Cómo se llama el evento de la comunidad de Tableau que ocurre en twitter una vez por semana?
+	Viz of the Day
+MakeOverMonday
+	3.
+	Cuando escribimos las posibles preguntas, dudas, puesto y preparación de quién interpretará nuestra visualización, estamos definiendo:
+	Público
+Perfil 
+4.
+Este tipo de visualización nos ayuda a encontrar la correlación entre dos variables
+Gráfica de Dispersión o Scatterplot
+5.
+Para crear valores o columnas personalizadas utilizando fórmulas utilizamos la opción:
+Crear Campo Calculado
+6.
+¿Para qué casos es recomendable la visualización de fechas por Trimestre?
+Para entender el comportamiento por temporadas como navidad, cierre de año, etc
+7.
+¿Cómo se llama la opción que nos permitirá cambiar el formato en que nuestros números son representados?
+Formato de número
+8.
+Si queremos crear un valor constante que pueda ser utilizado como un disparador personalizable utilizamos:
+Crear Parámetro
+9.
+¿Cómo podemos agregar filtros al hacer click en nuestros dashboards?
+
+Utilizando el menú ‘Dashboard’ en la opción ‘Acciones…’
+10.
+Para ocultar la etiqueta "abc" de una tabla de una sola columna podemos:
+Seleccionar la opción color en el apartado de "Marcas" y bajar la opacidad a 0
+11.
+¿Qué es un mapa en árbol?
+Dataviz que utiliza el tamaño de cuadrados como representación de sus datos
+12.
+¿Podemos utilizar condicionales en los campos calculados para poder disparar KPIs ?
+Verdadero
+13.
+¿Cuenta Tableau con un modo de presentación para los Storyboard?
+Verdadero
+14.
+¿Permite Tableau Public guardar directamente en el perfil en línea de Tableau?
+Verdadero
+15.
+Es imposible agregar títulos y espacios en blanco a los dashboards:
+Falso
+16.
+¿Cómo se llama la propiedad que permite al dataviz ajustar su tamaño dentro del tablero?
+Cuadrar
+17.
+Uno de los errores más comunes del dataviz es no estandarizar los ejes de la visualización
+Verdadero
+18.
+¿Dónde podemos encontrar una fuente de bases de datos libres para nuestros proyectos?
+Kaggle
+19.
+¿Permite Tableau Public guardar nuestros proyectos en manera local?
+Falso
+20.
+¿Cuál es la herramienta de visualización de datos generalmente utilizada en mercadotecnia?
+Google Analytics
