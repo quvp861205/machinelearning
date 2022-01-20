@@ -1,0 +1,123 @@
+¿Qué son los números primos?
+
+Números que solo tienen dos factores (ellos mismos y la unidad). Y con los cuales podemos componer todos los demás números
+2.
+
+¿Cuál es el resultado de la siguiente operación?
+ecuación 1.JPG
+
+20
+3.
+
+¿Cuál es el orden correcto al solucionar una operación aritmética?
+
+1.paréntesis y corchetes 2. exponentes 3. multiplicación y división 4. suma y resta
+4.
+
+¿Qué es un objeto?
+
+La instancia de una clase
+5.
+
+¿Cuál de los siguientes es un tipo de dato en Firestore?
+String
+	6.
+
+	Un pull request es:
+
+	Una petición de traer a mi local el contenido de un repositorio remoto.
+	7.
+
+	Si usas:
+
+	git config --global alias.platzi "shortlog"
+
+¿Cómo invocar ese comando?
+
+git alias.platzi
+
+8.
+from sklearn.linear_model import LogisticRegression es el comando para importar el modelo de regresión logística
+Verdadero
+	9.
+	¿En cuántas partes se deben dividir los datos para entrenar un modelo?
+	En tres, entrenamiento, pruebas y evaluación
+10.
+¿Cuál es el método para dividir los datos de entrenamiento y prueba?
+train_test_split(parámetros)
+11.
+Es una de las recomendaciones principales cuando aplicas un modelo de ML
+Definir el problema a resolver
+12.
+¿Las matrices singulares tienen inversa?
+No, una matriz cuadrada se dice singular cuando no es invertible.
+13.
+El tipo de dato SERIAL sirve para:
+Crear valores consecutivos para una columna.
+14.
+¿Los TRIGGERS pueden ser usados para ignorar inserts?
+Sí. Se usa con BEFORE y RETURN NULL.
+15.
+Dos de las malas prácticas al trabajar con bases de datos son:
+Dejar valores numéricos en formato texto y no limpiar espacios innecesarios en las celdas.
+16.
+
+¿Cuál es el resultado de hacer round(10.3456, 2)?
+10.35
+17.
+Para ver las primeras 10 filas debemos usar:
+df.head(10)
+18.
+Para aplicar un producto punto entre dos series de datos (x1, x2) pandas cuenta con:
+df['x1'].dot(df['x2'])
+19.
+
+Dado:
+
+df = pd.DataFrame({
+    'edad' :     [ 10, 9, 13, 14, 12, 11, 12],
+    'cm' : [ 115, 110, 130, 155, 125, 120, 125],
+    'pais' :    [ 'co', 'mx', 'co', 'mx', 'mx', 'ch', 'ch'],
+    'genero' :  [ 'F', 'M', 'M', 'M', 'F', 'F', 'F'],
+    'Q1' : [ 5, 10, 8, np.nan, 7, 8, 3],
+    'Q2' : [ 7, 9, 9, 8, 8, 8, 9.]
+}, index = ['Ana','Benito','Camilo','Daniel','Erika','Paola','Gabriela']) 
+
+¿Cuál sería la expresión para obtener la altura promedio y la desviación estándar agrupando por género?
+
+df.groupby(['genero'])['cm'].agg([np.mean,np.std])
+
+20.
+¿Cómo conviertes una serie de datos o una columna en un DataFrame a una variable Categórica?
+
+df[['name_column']].astype('category')
+21.
+La probabilidad como área de estudio es:
+Un área de las matemáticas que nos enseña cómo cuantificar la incertidumbre.
+22.
+¿Qué es la paradoja de Simpson?
+Se denomina paradoja de Simpson (o efecto Yule-Simpson) al cambio en el sentido de una asociación entre dos variables, numéricas o cualitativas, cuando se controla el efecto de una tercera variable.
+23.
+¿Qué es la carga cognitiva?
+El esfuerzo que debemos realizar para entender y retener la información.
+24.
+La forma de manipular geométricamente funciones es a través de procesos de:
+Desplazamientos, alargamientos y compresiones.
+25.
+¿Permite Tableau Public guardar nuestros proyectos en manera local?
+Falso
+26.
+La shell o línea de comandos es:
+Un programa que nos ayuda a comunicarnos con nuestro sistema operativo.
+27.
+¿Para qué nos pueden servir las razones matemáticas en los negocios?
+Para poder comparar fácilmente.
+28.
+Dadas las características de los notebooks y los scripts, ¿cuál es mejor?
+Ambos son útiles, depende del problema y objetivo que se tenga.
+29.
+¿Cuál es una ventaja de utilizar servicios en la nube de Jupyter Notebooks?
+Acceso a las notebooks y cambios que realizas siempre desde cualquier computadora.
+30.
+¿En qué consiste el algoritmo de divide y vencerás en el contexto de ambientes virtuales?
+Si se tiene un proyecto muy grande o las dependencias de este pueden ser separadas en componentes más pequeños, es mucho mejor tenerlas separadas, pues mantenerlas de forma estable será mucho más sencillo.

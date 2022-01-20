@@ -1,0 +1,55 @@
+#instalar conda para descargar e instalar cookiecutter
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html
+
+
+Es un manejador de plantillas multiplataformal, por lo que las plantillas se pueden utilizar en cualquier lenguaje de programación o formato de marcado.
+Además puede ser utilizado como una herramienta de línea de comandos o como una librería de Python
+¿Cómo funciona cookiecutter?
+
+cookiecutter va a detectar una sintaxis especial en tus documentos, en tus sistemas de carpetas y archivos, ya sea de forma local (ya sea que este dentro de la computadora) o una carpeta que este en la nube (por ejemplo en un repositorio de github). Va a procesar esta estructura, va a ver ciertas variables, va a buscar ciertas variables, va a buscar valores para reemplazar, y finalmente te va a entregar un nuevo proyecto, con la estructura definida en la plantilla subsistituyendo todos esos valores.
+
+Detras de escenas, cookiecutter, funciona con Jinja que es un motor de plantillas que es muy extensible y muy bonito por que te permite escribir plantillas, como si estuvieras escribiendo python. Por lo que si sabes python, escribir plantillas con Jinja se te va a hacer muy simiar, por que su sintaxis se basa en tres bloques principales.
+
+#Crear directorio de trabajo
+mkdir cookiecutter-persona
+cd cookiecutter-personal
+
+#Agregar repositorio para instalar cookiecutter
+conda config --add channels conda-forge
+
+#Crear ambiente
+conda create --name cookiecutter-personal cookiecutter=1.7.3
+
+#Ir al ambiente
+conda activate cookiecutter-personal
+conda deactivate (para desactivar ambiente virtual)
+
+#Exportar el ambiente
+conda env export --from-history --file environment.yaml
+
+#Ver el archivo 
+cat environment.yaml
+
+#Crear la plantilla con cookiecutter
+https://github.com/platzi/curso-entorno-avanzado-ds/tree/cookiecutter-personal-platzi
+cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+	
+	#llenar fomulario
+	entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+	project_name [Cookiecutter Personal]: cookiecutter testing
+	project_slug [cookiecutter_testing]:
+	project_author_name [Your name (or your organization/company/team)]: pquinonezv
+	project_author_email [Yout email (or your organization/company/team)]: quvp861205@gmail.com
+	project_description [A short description of the project.]:
+	Select project_packages:
+	1 - All
+	2 - Minimal
+	Choose from 1, 2 [1]: 1
+	python_version [3.7]:
+	project_version [0.1.0]:
+
+#activar el ambiente
+conda activate cookiecutter-personal
+
+#para instalar el proyecto y hacerlo editable
+pip install --editable .
