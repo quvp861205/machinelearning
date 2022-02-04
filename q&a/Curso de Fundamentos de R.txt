@@ -1,0 +1,119 @@
+¿Qué conocimientos necesitas como Científico de datos?
+Todas las anteriores.
+2.
+¿Cuáles son los componentes del Big Data?
+Volumen, Velocidad, Variedad
+3.
+¿Qué característica destaca en el lenguaje R?
+Manejar datos estadisticos
+4.
+¿Cómo se llama la interfaz amigable de R?
+R studio.
+5.
+¿Cual es el comando para visualizar tu dataset?
+View(dataset)
+6.
+¿Cómo se realizan las asignaciones de variables en R?
+x <- 2
+7.
+Una variable nos ahorra tiempo porque:
+Permite llamar cualquier cálculo previamente hecho.
+8.
+¿Qué comando se utiliza para conocer la estructura de un dataset?
+str(dataset)
+9.
+¿Qué comando me muestra los detalles del dataset en la vista 'Help'?
+?dataset
+10.
+
+¿Qué resulta de ejecutar la siguiente línea de código?: mtcars$vs = as.logical(mtcars$vs)
+
+Convierte el tipo de dato de la columna vs en el datset mtcars a tipo lógico (booleano)
+
+11.
+¿Con qué comando obtenemos el resumen de un dataset?
+summary(dataset)
+	12.
+	¿Cuáles son algunos de los datos que nos muestra el resumen de un dataset?
+	Media, mediana, moda, deviación estandar, covarianza, límite superior e inferior.
+13.
+¿Para qué sirve la función transform?
+Para cambiar los valores de un campo o toda una columna en nuestro dataset.
+14.
+
+Supón que tienes un dataset llamado travels con una columna que se llama distance la cual está en millas y quieres convertirla a kilómetros considerando que 1 mi = 1.609344 km ¿Cómo realizarías esta transformación?
+travels.new <- transform(travels,distance=distance*1.609344)
+15.
+¿Qué es un vector?
+Una lista de elementos del mismo tipo.
+16.
+¿Cuál es la sintaxis para crear un vector en R?
+nombre_del_vector <- c(elemento1, elemento2,... elementon)
+17.
+
+¿Qué resultado retorna la siguiente script?
+numeros <- c(1, 2, 3, 4) suma_numeros <- sum(numeros) suma_numeros
+10
+18.
+¿Qué es una matriz?
+Un conjunto de datos del mismo tipo ordenados por filas y columnas.
+19.
+¿Cuál es un ejemplo de sintaxis paar crear una matriz?
+
+tiempo_matrix <- matrix(c(tiempo_estudio, tiempo_traslado), nrow = 2, byrow = TRUE)
+20.
+Tienes un dataset que se llama `duracion_vuelos` ¿cómo accedes al elemento ubicado en la tercer fila y cuarta columna?
+
+duracion_vuelos[3,4]
+21.
+
+Tienes un dataset con información de películas llamado movies_dataset y quieres conocer todas las observaciones que en la columna review_score tiene un valor mayor a 7 ¿qué línea de comando te muestra este resultado?
+
+movies_dataset[movies_dataset$review_score>7,]
+22.
+
+¿Para qué sirven las funciones head() y tail()?
+
+head() muestra el nombre de las primeras 6 columnas y tail() el nombre de las últimas columnas.
+
+23.
+¿Qué son las listas?
+Vectores genéricos que pueden contener objetos de cualquier tipo como variables, vectores y matrices.
+24.
+Son gráficas claves en el análisis exploratorio de datos (EDA):
+Histograma, gráfica de dispersión y box plot.
+25.
+Son los 5 elementos clave de un box plot:
+Primer cuartil, tercer cuartil, mediana, mínimo y máximo.
+26.
+¿Cómo puedes crear una gráfica de dispersión en R?
+
+plot(dataset$columna ~ dataset$columna, etiqueta_en_x = “nombre de etiqueta”, etiqueta_en_y = “nombre de etiqueta”, titulo = “título del gráfico”)
+27.
+
+¿Qué hace el siguiente código? ggplot(ventas, aes(x=ciudad)) + geom_histogram() + labs(x=“Ciudades”, y=“Unidad comercial”, title=“Ventas por unidad comercial”)
+
+Crea un histograma con ggplot2, mostrando del dataset ventas, los datos de la columna ciudad para el eje ‘x’, con las etiquetas “Ciudades” en el eje ‘x’, “Unidad comercial” para el eje ‘y’ y con título "Ventas por unidad comercial en el gráfico.
+28.
+
+Tienes el dataset mtcars y quieres mostrar un box plot con ggplot de la columna caballos_de_fuerza, comparando también la columna cilindraje ¿qué código escribirías para esto?
+
+ggplot(mtcars, aes(x=as.factor(cilindraje), y=caballos_de_fuerza, fill=cilindraje)) + geom_boxplot()+ labs(x="cilindros", y="caballos de fuerza", title="Caballos de fuerza según cilindraje")
+29.
+¿Qué sintaxis me ayuda a mostrar un diagrama de dispersión (scatter plot) de dos variables?
+
+ggplot(dataset, aes(variable_x, variable_y))+ geom_point()+ labs(x="título para el eje x", y="título para el eje y", title="título del gráfico")
+30.
+
+¿Qué nos mostrará el siguiente script al correrlo?
+pairs(ventas[,2:5])
+
+Gráficos de dispersión del dataset ´ventas`, todas las observaciones y correlación entre las variables de la número 2 a la número 5.
+
+31.
+
+¿Para qué nos sirve la función cor()?
+Para calcular la correlación entre las variables de distintas columnas en un dataset.
+32.
+¿Qué nos indica el coeficiente de variación?
+Qué tan desviados o próximos al promedio se encuentran los valores de nuestra muestra.

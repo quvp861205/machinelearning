@@ -1,0 +1,45 @@
+¿Qué es Microsoft Power BI?
+
+Es una solución integral de análisis de negocios que permite analizar datos y compartir información.
+2.
+¿Qué se puede hacer con Power BI?
+Todas las opciones.
+3.
+¿Cómo está compuesta la suite de negocio Power BI?
+Power BI Desktop, Power BI Service y Power BI Mobile
+4.
+¿Qué solución le permite acceder a sus datos e informes desde cualquier lugar con las aplicaciones móviles?
+Power BI Mobile
+5.
+¿Por qué se crean paneles/dashboards?
+Para observar de solo un vistazo toda la información necesaria para tomar decisiones.
+6.
+Elije la alternativa incorrecta respecto a las trasformaciones que se realizan en Power Query:
+Eliminar filas, eliminar columnas, crear visualizaciones y eliminar errores.
+7.
+Elije la opción correcta sobre la inteligencia de tiempos:
+Todas las opciones.
+8.
+¿Cuáles son los componentes de Power BI?
+Power Query, Power Pivot, Power View y Power Map.
+9.
+¿Cuáles son los tipos de conexiones en Power BI?
+Import, Direct Query, Dual , Live connection
+10.
+Marca el enunciado incorrecto respecto a los informes en Power BI:
+Para crear informes es necesario tener una cuenta de Power BI Pro.
+11.
+¿Qué hace Power Query?
+Extrae, transforma y carga los datos.
+12.
+Elije la alternativa incorrecta respecto a las trasformaciones que se realizan en Power Query:
+Eliminar filas, eliminar columnas, crear visualizaciones y eliminar errores.
+13.
+Elije la opción correcta respecto al significado y uso de DAX:
+Todas las opciones.
+14.
+¿Qué podemos crear con DAX?
+Todas las opciones.
+15.
+¿Cuáles son los objetivos del Data Storytelling?
+Todas las opciones. 
