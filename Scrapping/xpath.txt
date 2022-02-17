@@ -1,0 +1,9 @@
+Pagina =  https://www.larepublica.co/
+
+Links = $x('//h2/a/@href').map(x => x.value)
+
+Titulos = $x('//h2/span/text()').map(x=>x.wholeText)
+
+Resumen = $x('//div[@class="lead"]/p/text()').map(x=>x.wholeText)
+
+Contenido = $x('//div[@class="html-content"]/p[not(@class)]/text()').map(x=>x.wholeText)

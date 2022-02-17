@@ -1,0 +1,67 @@
+¿Qué tiene Google Data Studio que no tienen otras herramientas de visualización de datos líderes en el mercado mencionadas en la clase?
+Es gratis, con todas las funciones incluidas.
+	2.
+	¿Cuál de los siguientes conectores de Google Data Studio no es nativo? Es decir, requiere de un tercero para conectarse a él.
+	BigQuery
+	Chrome UX Report
+3.
+¿Cada cuánto debes conectar/refrescar tu cuenta de Google Analytics?
+Solo si se te ha revocado el acceso.
+4.
+¿Cuál de las siguientes fuentes de datos requiere un integrador (como Supermetrics) para poder conectarse a Google Data Studio?
+Google My Business
+5.
+¿Cuál de las siguientes es una métrica y no una dimensión?
+Tasa de rebote
+6.
+¿Cuál de las siguientes métricas NO se encuentra en el conector de Google Search Console para URLs?
+Posición promedio
+7.
+¿Cuál de las siguientes combinaciones de métricas y dimensiones no son compatibles en un reporte de Google Ads?
+Reproducciones de video por tipo de conversión
+8.
+¿Cuál de las siguientes métricas y dimensiones no hace parte del conector de YouTube Analytics?
+Impresiones
+	9.
+	¿Cuál de las siguientes combinaciones de métricas y dimensiones serían más ideales para crear un mapa de calor?
+	Tasa de conversión, sesiones y meses
+	Paises, hora del dia y usuarios
+10.
+¿Qué tipo de unión (join) se da al combinar fuentes de datos en Google Data Studio (2020)?
+Left Join
+11.
+¿Cuál de los siguientes campos sería más ideal como clave de unión (o join key) para combinar dos bases de datos?
+Fecha
+12.
+¿Qué métrica para representar el tráfico utiliza Google Analytics por defecto para medir la tasa de conversión de un sitio web?
+Sesiones
+13.
+¿Para cuál de estos casos utilizar expresiones regulares es más ideal?
+Agrupar todas las URLs de referido que contengan la palabra "Facebook".
+14.
+¿Cuál de los siguientes elementos se utiliza para instalar Google Analytics en un reporte de Google Data Studio?
+ID de seguimiento
+15.
+Para conocer la evolución del tráfico de un sitio web mes a mes, durante un año, ¿qué tipo de gráfico sería más ideal?
+Serie temporal
+16.
+¿Para cuál de los siguientes casos un gráfico de doble eje sería la mejor opción?
+Identificar la relación entre dos variables.
+17.
+¿Cuál es la diferencia (si es que hay) entre las métricas de alcance e impresiones?
+El alcance se refiere al número de personas mientras las impresiones se refieren a la cantidad de veces que una publicación es visible.
+18.
+¿Cuál de las siguientes hace parte de las "acciones negativas" en Facebook Insights, según Supermetrics?
+Esconder una publicacion
+19.
+¿Cuál de las siguientes no hace parte de una métrica de engagement en los reportes de Instagram de Supermetrics?
+Page likes
+20.
+¿Cuál de las siguientes métricas no está en el conector de Google My Business?
+Visitas al putno de venta especifico
+21.
+¿Cuál de las siguientes bases de datos NO sería recomendable utilizar para el conector de Google Sheets?
+Una base de datos de todos los habitantes de Colombia.
+22.
+¿Qué tipo de dato utilizarías si en una columna de una hoja de cálculo de Google hay rangos de edad? (e.g. 24-35)
+Texto
