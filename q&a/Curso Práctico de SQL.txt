@@ -8,7 +8,7 @@ Las funciones de agregación se usan en conjunto con la sentencia:
 GROUP BY
 4.
 ¿Qué función te permite usar una tabla remota como origen de datos?
-dblink 
+dblink  
 5.
 ¿Cuál de los tipos de JOIN produce un producto cartesiano completo?
 FULL OUTER JOIN 
