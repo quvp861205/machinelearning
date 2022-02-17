@@ -11,7 +11,7 @@ GROUP BY
 dblink 
 5.
 ¿Cuál de los tipos de JOIN produce un producto cartesiano completo?
-FULL OUTER JOIN
+FULL OUTER JOIN 
 6.
 ¿Cuál es el "comodín" para sustituir un carácter?
 _
