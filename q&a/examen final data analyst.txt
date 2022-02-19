@@ -1,0 +1,138 @@
+¿Qué significan las siglas UML?
+
+Unifed Modeling Language
+2.
+¿Cuál es la principal sentencia de consulta?
+SELECT
+3.
+Es importante crear ROLES y dejar de usar el predeterminado de Postgres porque:
+Permite crear una estructura de permisos a la medida.
+4.
+¿Cuáles dos acciones podemos capturar de una tabla maestra usando llaves foráneas?
+Al borrar y actualizar.
+5.
+¿Qué formato debes usar si queremos ver la consulta equivalente a nuestra base de datos al momento de hacer Backup?
+Plain
+6.
+¿Es posible actualizar la información en una réplica?
+Falso
+7.
+La utilidad principal de Excel es:
+Procesar información numérica o de texto de manera automática.
+8.
+Los tres componentes básicos del entorno de Excel son:
+Libro, hoja y celda.
+9.
+¿Qué son los parámetros de una función?
+Variables que se pasan al momento de la invocación, y que estarán disponibles para ser usadas dentro de la función
+10.
+Para aplicar un producto punto entre dos series de datos (x1, x2) pandas cuenta con:
+df['x1'].dot(df['x2'])
+11.
+Para unir dos DataFrames (df1, df2) la forma más práctica sería:
+df1.append(df2)
+12.
+
+Dado:
+
+df = pd.DataFrame({
+    'edad' :     [ 10, 9, 13, 14, 12, 11, 12],
+    'cm' : [ 115, 110, 130, 155, 125, 120, 125],
+    'pais' :    [ 'co', 'mx', 'co', 'mx', 'mx', 'ch', 'ch'],
+    'genero' :  [ 'F', 'M', 'M', 'M', 'F', 'F', 'F'],
+    'Q1' : [ 5, 10, 8, np.nan, 7, 8, 3],
+    'Q2' : [ 7, 9, 9, 8, 8, 8, 9.]
+}, index = ['Ana','Benito','Camilo','Daniel','Erika','Paola','Gabriela']) 
+
+¿Cuál sería la expresión para obtener la altura promedio y la desviación estándar agrupando por género?
+
+df.groupby(['genero'])['cm'].agg([np.mean,np.std])
+
+13.
+
+Dado:
+
+df = pd.DataFrame({
+    'edad' :     [ 10, 9, 13, 14, 12, 11, 12],
+    'cm' : [ 115, 110, 130, 155, 125, 120, 125],
+    'pais' :    [ 'co', 'mx', 'co', 'mx', 'mx', 'ch', 'ch'],
+    'genero' :  [ 'F', 'M', 'M', 'M', 'F', 'F', 'F'],
+    'Q1' : [ 5, 10, 8, np.nan, 7, 8, 3],
+    'Q2' : [ 7, 9, 9, 8, 8, 8, 9.]
+}, index = ['Ana','Benito','Camilo','Daniel','Erika','Paola','Gabriela'])
+
+
+print(df['edad'] >= 12)
+
+¿Cuál es la respuesta correcta?
+
+Ana         False
+Benito      False
+Camilo       True
+Daniel       True
+Erika        True
+Paola       False
+Gabriela     True
+Name: edad, dtype: bool
+
+14.
+
+Si deseas leer la primera hoja (Sheet1) de un archivo en Excel, usas:
+
+df = pd.read_excel('file_name.xlsx', sheet_name='Sheet1') 
+
+15.
+
+¿En qué proyectos podemos implementar deep learning?
+
+Todas las respuestas son correctas.
+16.
+
+Fusionar información cuantitativa y cualitativa nos ayuda a interpretar características categóricas de usuarios, operaciones y conjuntos de datos. Esta afirmación es:
+
+Verdadera
+17.
+En machine learning las principales fuentes de incertidumbre de un modelo son:
+Datos, atributos y arquitectura de un modelo.
+18.
+
+Considera un juego de ruleta de dos jugadores apostando sobre 8 opciones diferentes, tenemos que el jugador 1 tiene su apuesta A= {2,4,6,8} y el jugador 2 apostó por las casillas B = {1,2,3,4}, entonces la probabilidad de que gane el jugador 1 sabiendo que la bolita cayó en una de las opciones de B es:
+P(1 | B) = 1/2
+19.
+Nombra dos herramientas para desarrollar un EDA.
+Python, Sagemaker.
+20.
+¿Qué es un análisis multivariable?
+Aquel que siempre se utiliza cuando hay más de tres variables involucradas y el contexto de su contenido no está claro.
+21.
+Para crear valores o columnas personalizadas utilizando fórmulas utilizamos la opción:
+Crear Campo Calculado
+22.
+¿Cuál es el módulo nativo de Python para crear entornos virtuales?
+venv
+23.
+¿Dónde se encuentra la herramienta de depuración?
+En el editor de código.
+24.
+¿Qué letra simboliza el modo de escritura con sobrescritura de un archivo en Python?
+W
+25.
+¿Cuál de las siguientes opciones es un list comprehension con su sintaxis correcta?
+
+[i for i in range(1, 5) if i % 2 == 0]
+26.
+¿Qué comando muestra las últimas 5 líneas de texto de un documento?
+tail -n 5 mi_texto
+27.
+El pipe operator redirecciona la salida de un comando a la entrada de otro comando, esto es:
+Verdadero
+28.
+
+El comando chmod u=rwx,go=r mi_archivo ¿qué permisos otorga?
+Otorga permisos de lectura, escritura y ejecución al usuario. Solo otorga permiso de lectura a los grupos y a otros.
+29.
+¿Qué son los conjuntos?
+Una colección desordenada de elementos únicos e inmutables.
+30.
+¿Qué es un notebook para ciencia de datos?
+Documento que contiene código de programación y elementos de texto enriquecido.

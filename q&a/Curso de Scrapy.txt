@@ -1,0 +1,115 @@
+Scrapy, ¿es un framework de?
+Web Scraping y Web Crawling
+	2.
+	Que Scrapy sea un framework asíncrono quiere decir que:
+
+	Utiliza promesas en su core para gestionar el intercambio de datos.
+3.
+
+¿Respeta Scrapy el archivo robots.txt de un sitio web?
+Verdadero
+4.
+¿Para qué debemos instalar Scrapy dentro de un entorno virtual?
+
+Para no generar conflictos entre las dependencias de diferentes proyectos.
+5.
+
+¿El comando para correr un Spider es?
+scrapy crawl
+6.
+
+¿El comando para crear un proyecto de Scrapy es?
+scrapy startproject
+7.
+
+¿Qué tipos de datos son iterables en Python?
+list, dict, set, str
+8.
+
+¿Qué es un generador?
+
+Una función que recuerda su estado interno en las siguientes invocaciones.
+9.
+
+La función que transforma a un iterable en un iterador es:
+iter
+10.
+
+La función que extrae el siguiente dato de un iterador es:
+next
+11.
+
+¿Cuál es el comando para lanzar la consola de Scrapy?
+scrapy shell
+12.
+Dentro de la consola de Scrapy, ¿qué comando nos permite ver las cabeceras de una respuesta http?
+response.headers
+13.
+Dentro de la consola de Scrapy, ¿qué comando nos permite ver el método de una petición http?
+request.method
+	14.
+
+	El archivo que contiene información sobre el deployment de nuestro proyecto es:
+	settings.py
+scrapy.cfg
+15.
+
+El atributo que permite controlar si se respeta o no el archivo robots.txt de un sitio web es:
+ROBOTSTXT_OBEY
+16.
+
+¿En qué carpeta se deben guardar los spiders que creamos?
+spiders
+	17.
+	¿Qué son los spiders?
+
+	Funciones de Python que permiten aplicar XPath a una respuesta http.
+18.
+¿Cuál es el atributo dentro de un spider que lo identifica de manera única frente al resto de spiders?
+name
+19.
+
+El método parse permite configurar un spider.
+¿El anterior enunciado es?
+Falso
+20.
+
+Un nodo div con una clase que contiene “tags-box” en su contenido se selecciona mediante la siguiente expresión de XPath:
+//div[contains(@class, "tags-box")]
+21.
+
+Para extraer el texto de todas las etiquetas de tipo “a” en un sitio web puedo utilizar la siguiente expresión de XPath:
+//a/text()
+22.
+
+Para extraer todos los nodos span cuya clase es igual a “tag-item” puedo utilizar la siguiente expresión de XPath:
+//span[@class="tag-item"]
+23.
+
+La palabra clave “yield”, ¿le da cualidades de generador a un método de tipo parse?
+Verdadero
+24.
+¿Cuál es el formato más eficiente que Scrapy te permite usar para guardar datos que te servirán para nutrir de información a una aplicación web?
+JSON
+25.
+¿Cuál es el formato más eficiente que Scrapy te permite usar para guardar datos que te servirán para realizar tareas de Data Science o análisis de información?
+CSV
+26.
+
+Cuando ejecutamos más de una vez un spider, ¿Scrapy reescribe los archivos de resultados anteriores?
+Falso
+27.
+
+El flag que permite guardar un archivo de resultados por consola es:
+-o
+28.
+
+El método que permite “seguir” un link dentro de un spider es:
+response.follow
+29.
+
+El flag que permite pasar argumentos por consola a un spider es:
+-a
+30.
+¿Cuál de las siguientes configuraciones permite cambiar mi identidad en una petición http?
+USER_AGENT

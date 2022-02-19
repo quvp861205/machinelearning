@@ -50,7 +50,7 @@ La correlación indica la fuerza y la dirección de una relación lineal y propo
 	Es la estructura a datos relevantes y variables individuales. Los estudios factoriales se centran en diferentes variables, por lo que se subdividen en análisis de componentes principales y análisis de correspondencia.
 	Determina la influencia de varias variables o de variables individuales en grupos calculando promedios estadisticos
 	Es la influencia de dos tipos de variables una sobre la otra. Se habla de variables dependientes y no dependientes. Las primeras son las llamadas variables explicadas.
-	
+Aquel que siempre se utilizaq cuando hay mas de tres variables involucradas y el contexto de su contenido no esta claro
 
 15.
 ¿Qué es la paradoja de Simpson?
